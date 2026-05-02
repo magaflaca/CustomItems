@@ -2,7 +2,7 @@
 
 CustomItems is a TShock plugin for spawning Terraria items with edited item stats.
 
-Original plugin by **Interverse**. Updated for **TShock v6.x / .NET 9** by **isawicca**.
+Original plugin by [**Interverse**](https://github.com/Interverse/CustomItems). Updated for **TShock v6.x / .NET 9** by [**isawicca**](mailto:magaflaca@proton.me).
 
 [Download the DLL here.](https://github.com/magaflaca/CustomItems/releases/download/1.5.0/CustomItems.dll)
 
