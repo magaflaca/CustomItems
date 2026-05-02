@@ -1,0 +1,60 @@
+# Build output
+bin/
+obj/
+out/
+artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.assets.json
+project.nuget.cache
+
+# Test output
+TestResults/
+*.trx
+coverage/
+coverage.xml
+coverage.cobertura.xml
+
+# Logs and dumps
+*.log
+*.dmp
+*.dump
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local TShock server files
+ServerPlugins/*.dll
+ServerPlugins/*.pdb
+TerrariaServer.dll
+OTAPI.dll
+TShockAPI.dll
+sqlite3.dll
+mysql.data.dll
+npgsql.dll
+Newtonsoft.Json.dll
+RELEASE_NOTES.md

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>CustomItems</AssemblyName>
+    <RootNamespace>CustomItems</RootNamespace>
+    <Version>1.5.0</Version>
+    <Authors>Interverse; isawicca</Authors>
+    <Description>Spawn and give custom tweaked Terraria items on TShock v6.</Description>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TShockServerPath Condition="'$(TShockServerPath)' == ''">..</TShockServerPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TShockAPI">
+      <HintPath>$(TShockServerPath)/ServerPlugins/TShockAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="OTAPI">
+      <HintPath>$(TShockServerPath)/OTAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="TerrariaServer">
+      <HintPath>$(TShockServerPath)/TerrariaServer.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
